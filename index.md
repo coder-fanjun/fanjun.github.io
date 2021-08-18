@@ -4,8 +4,10 @@ Hi~
 我来自广东省佛山市。  
 没什么人看我的项目。  
 但是，我希望你就是那个喜欢看我项目的人😊😊  
-  
-联系方式：
+一个咸鱼程序员————    
+著名（划掉）项目：os tool  
+
+联系方式：  
 QQ:1530541242  
 mail: 1530541242@qq.com  
 github:<url>https://github.com/coder-fanjun/</url>  
