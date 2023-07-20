@@ -35,19 +35,19 @@ div:focus {
 /* 木鱼棒 */
 .mubang {
     position: absolute;
-    top: 105px;
-    left: 0px;
+    top: 205px;
+    left: 60px;
     width: 200px;
-    height: 200px;
+    height: 300px;
     background: url('./img/stick.png') no-repeat;
     background-size: contain;
-    transform: rotate(-40deg);
-    transform-origin: 10px 70px;
+    transform: rotate(-50deg);
+    transform-origin: 10px 40px;
     cursor: pointer;
 }
 
 .move {
-    animation: move 0.5s linear alternate;
+    animation: move 0.2s linear alternate;
 }
 
 .auto_move {
