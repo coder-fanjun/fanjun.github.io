@@ -34,8 +34,8 @@ function clickMubang() {
       document.querySelector(".mubang").className = "mubang move";
     });
   });
-  setTimeout(playMusic, 500);
-  setTimeout(addNum, 500);
+  setTimeout(playMusic, 250);
+  setTimeout(addNum, 20);
 }
 // 播放音乐
 function playMusic() {
@@ -56,6 +56,33 @@ function autoPlay() {
 function clickMuyu() {
   playMusic();
   addNum();
+  playMusic();
+  addNum();
+  playMusic();
+  addNum();
+  playMusic();
+   addNum();
+  playMusic();
+  addNum();
+  playMusic();
+  addNum();
+  playMusic();
+   addNum();
+  addNum();
+  addNum();
+   addNum();
+  addNum();
+  addNum();
+   addNum();
+  addNum();
+  addNum();
+  playMusic();
+  playMusic();
+  playMusic();
+  playMusic();
+  playMusic();
+  playMusic();
+  
 }
 
 // 今日功德,总功德
@@ -85,13 +112,13 @@ function getNum() {
 
 function addNum() {
   showtips();
-  setTimeout(hiddenTips, 600);
+  setTimeout(hiddenTips, 10);
   // 今日功德+1
-  todayNum = +todayNum + 1;
+  todayNum = +todayNum + 2;
   today.innerHTML = todayNum;
   localStorage.setItem("todayNum", todayNum);
   // 总功德+1
-  allNum = +allNum + 1;
+  allNum = +allNum + 2;
   all.innerHTML = allNum;
   localStorage.setItem("allNum", allNum);
 }
